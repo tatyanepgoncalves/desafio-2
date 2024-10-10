@@ -20,6 +20,7 @@ body {
 
 header {
   background-color: $bg-1;
+  padding: 30px 0;
 }
 
 .container-header {
@@ -51,11 +52,22 @@ header {
 
     li {
       a {
-        font-size: 28px;
+        font-size: 20px;
         line-height: 38.14px;
         font-weight: normal;
         text-transform: uppercase;
         color: $text;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+.menu-header {
+  ul {
+    li {
+      a:hover {
+        color: #fff;
       }
     }
   }
@@ -127,11 +139,44 @@ header {
 
 footer {
   background: $bg-1;
+  padding: 30px 0;
 }
 
 .container-footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 14px 45px 14px 55px;
+  justify-content: space-around;
+  padding: 0 45px 0 55px;
+}
+
+.social-media {
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+  }
+}
+
+.text-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  text-align: center;
+  p {
+    font-size: 20px;
+    line-height: 27.24px;    
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $bg-1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $bg-2;
 }
