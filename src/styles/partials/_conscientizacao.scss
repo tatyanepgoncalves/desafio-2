@@ -1,0 +1,23 @@
+
+#conscientizacao {
+  background: $bg-1;
+}
+
+.container-conscientizacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 29px 0 56px;
+
+  .img {
+    padding: 14px 0;
+  }
+
+  .text {
+    width: 690px;
+    p {
+      color: $text;
+    }
+  }
+
+}

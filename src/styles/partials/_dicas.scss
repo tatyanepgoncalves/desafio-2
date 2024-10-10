@@ -1,0 +1,18 @@
+
+#dicas {
+  background: $bg-2;
+}
+
+.container-dicas {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  justify-content: center;
+  gap: 37px;
+  padding: 88px 50px;
+}
+
+.text {
+  font-size: 25px;
+  line-height: 34.05px;
+  color: #000;
+}
